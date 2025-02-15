@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css');
+@import "tailwindcss";
+
+/* Menu separator style */
+.menu-separator {
+    border: none;
+    background: linear-gradient(
+      90deg,
+      currentColor 4px,
+      transparent 4px
+    )
+    50% 50% / 8px 1px repeat no-repeat;
+    color: rgba(204, 204, 204, 1);
+    height: 0.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* Card shadow style */
+  .card {
+    box-shadow: 
+      0 1px 1px 0.5px rgba(41, 41, 41, 0.04),
+      0 3px 3px -1.5px rgba(41, 41, 41, 0.02),
+      0 6px 6px -3px rgba(41, 41, 41, 0.04),
+      0 12px 12px -6px rgba(41, 41, 41, 0.04),
+      0 24px 24px -12px rgba(41, 41, 41, 0.04),
+      0 48px 48px -24px rgba(41, 41, 41, 0.04),
+      0 0 0 1px rgba(41, 41, 41, 0.04),
+      inset 0 -1px 1px -0.5px rgba(51, 51, 51, 0.06);
+  }
