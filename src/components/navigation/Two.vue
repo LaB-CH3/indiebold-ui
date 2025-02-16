@@ -1,5 +1,5 @@
 <template>
-      <aside class="bg-[#212126] h-full p-3 flex flex-col gap-3 transition-all duration-300" :class="{'w-[74px]': collapsed, 'w-[280px]': !collapsed}">
+      <aside class="bg-[#212126] h-screen p-3 flex flex-col gap-3 transition-all duration-300" :class="{'w-[74px]': collapsed, 'w-[280px]': !collapsed}">
    
    <div class="flex items-center gap-3 h-[60px]">
        <div class="flex-1 overflow-hidden whitespace-nowrap transition-all duration-200" :class="{'opacity-0 max-w-0': collapsed, 'opacity-100 max-w-full': !collapsed}">

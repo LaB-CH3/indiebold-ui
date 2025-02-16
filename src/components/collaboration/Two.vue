@@ -4,17 +4,17 @@
         <form @submit.prevent="handleSubmit" class="flex flex-col flex-1 relative bg-gray-100 rounded-xl">
             <textarea rows="5" class="w-full p-2 border rounded-lg placeholder:font-light focus:ring-4 focus:ring-gray-100 focus:border-black outline-none transition-all duration-200 bg-gray-50 border-gray-200" placeholder="Add comment..."></textarea>
         
-            <div class="flex items-center w-[96%] p-2 absolute bottom-0 left-2">
-                  <div class="flex gap-2 flex-1">
-                    <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200" v-for="btn in editButtons">
-                        <i :class="btn"></i>
-                    </a>
-                 </div>
-                 <div class="flex items-center gap-2">
-                    <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200"><i class="ri-at-line"></i></a>
-                    <button class="flex items-center justify-center rounded-full bg-red-500 text-white px-3 py-1 hover:bg-red-500">Send</button>
-                  </div>
-                </div>
+
+
+            <div class="flex gap-2 flex-1 absolute left-2 bottom-2">
+                <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200" v-for="btn in editButtons">
+                    <i :class="btn"></i>
+                </a>
+             </div>
+             <div class="flex items-center gap-2 absolute bottom-2 right-2">
+                <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200"><i class="ri-at-line"></i></a>
+                <button class="flex items-center justify-center rounded-full bg-red-500 text-white px-3 py-1 hover:bg-red-500">Send</button>
+              </div>
            </form>
 
            <div class="flex menu-separator"></div>

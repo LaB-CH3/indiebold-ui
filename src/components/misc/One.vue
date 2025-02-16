@@ -1,5 +1,5 @@
 <template>
-    <div class="camera-container bg-white card p-6 rounded-3xl">
+    <div class="bg-white card p-6 rounded-3xl">
         <div class="flex flex-col gap-6" v-if="!videoStream">
 
           <!-- Header -->

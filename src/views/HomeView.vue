@@ -1,5 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const { genre, view } = route.query
+
 const photoStore = ref([])
 
 // Navigations
@@ -33,13 +38,72 @@ import MiscTwo from '@/components/misc/Two.vue';
 import CollabOne from '@/components/collaboration/One.vue';
 import CollabTwo from '@/components/collaboration/Two.vue';
 
+
+
+//query @genre[nav, dropdown, rating, chat, misc, collab, stat]
+
 </script>
 
 <template>
-  <main class="p-5 bg-gray-50">
-   
-    <!-- demo -->
 
+
+<!---------------------------------- DEMO -------------------------- -->
+
+<div v-if="genre">
+  <!-- nav -->
+  <div class="flex-1" v-if="genre == 'nav'">
+    <NavOne v-if="view == '1'" />
+    <NavTwo v-else-if="view == '2'" />
+    <NavThree v-else />
+  </div>
+
+  <!-- dropdown -->
+  <div class="flex-1 p-2" v-if="genre == 'dropdown'">
+    <UserDWOne v-if="view == '1'" />
+    <UserDWTwo v-else-if="view == '2'" />
+    <UserDWThree v-else-if="view == '3'" />
+    <UserDWFour v-else />
+  </div>
+
+   <!-- rating -->
+   <div class="flex-1 p-2" v-if="genre == 'rating'">
+    <RatingOne v-if="view == '1'" />
+    <RatingTwo v-else />
+   </div>
+
+    <!-- chat -->
+    <div class="flex-1 p-2" v-if="genre == 'chat'">
+    <ChatOne v-if="view == '1'" />
+    <ChatTwo v-else />
+   </div>
+
+   <!-- misc -->
+   <div class="flex-1 p-2" v-if="genre == 'misc'">
+    <MiscOne :photos="photoStore" v-if="view == '1'" />
+    <MiscTwo v-else />
+   </div>
+
+
+    <!-- collab -->
+    <div class="flex-1 p-2" v-if="genre == 'collab'">
+    <CollabOne v-if="view == '1'" />
+    <CollabTwo v-else />
+   </div>
+
+
+    <!-- collab -->
+    <div class="flex-1 p-2" v-if="genre == 'stat'">
+    <StatOne v-if="view == '1'" />
+    <StatTwo v-else />
+   </div>
+
+</div>
+
+
+
+
+  <main class="p-5 bg-gray-50" v-else>
+   
     <!-- nav -->
     <div class="flex justify-between gap-4">
       <div class="border border-gray-200">
@@ -71,7 +135,7 @@ import CollabTwo from '@/components/collaboration/Two.vue';
 
     <br><br>
 
-    <div class="flex max-w-5xl m-auto h-[600px] rounded-r-3xl overflow-hidden">
+    <div class="flex max-w-5xl m-auto h-[600px]">
      <div class="w-[300px]">
       <ChatOne />
      </div>
@@ -98,7 +162,6 @@ import CollabTwo from '@/components/collaboration/Two.vue';
       <StatOne />
       <StatTwo />
     </div>
-
 
   </main>
 </template>
