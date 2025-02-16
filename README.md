@@ -1,7 +1,13 @@
 
 # Beautiful UI Blocks, Crafted with Tailwind CSS for Vue.js
 
-A collection of prebuilt Vue.js components styled with Tailwind CSS to help you quickly design and develop beautiful user interfaces.
+A collection of prebuilt Vue.js components styled with Tailwind CSS to help you quickly design and develop beautiful user interfaces. 
+
+### Live demo (https://indiebold-ui.netlify.app/)
+
+
+---
+
 
 ![Basic Components Preview](./src/assets/demo/shot.png)
 
