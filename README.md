@@ -61,6 +61,7 @@ In your main CSS file (e.g., `main.css` or `App.css`), you can also include thes
   height: 0.25rem;
   margin: 0.5rem 0;
 }
+```
 
 ---
 
