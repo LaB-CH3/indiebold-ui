@@ -1,5 +1,5 @@
 <template>
-      <div class="card flex flex-col w-auto rounded-2xl bg-white py-2">
+      <div class="flex flex-col w-auto rounded-2xl bg-white py-2 shadow max-w-[300px] m-auto">
       <ul class="flex flex-col">
        <li v-for="link in links">
           <a href="#" class="text-gray-800 flex gap-2 items-center p-1.5 px-4 hover:bg-gray-100">

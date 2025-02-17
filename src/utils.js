@@ -5,8 +5,8 @@ const contacts = [
         id: 1,
         msg: {
             text: 'Sure! let me tell you about which one hhs shshs',
-            date: '2m',
-            read: false
+            date: '16m',
+            read: true
         }
      },
      { 
@@ -15,8 +15,8 @@ const contacts = [
         id: 2,
         msg: {
             text: 'I will. Have a nice day!',
-            date: '2m',
-            read: true
+            date: 'now',
+            read: false
         }
      },
      { 
@@ -25,8 +25,8 @@ const contacts = [
         id: 3,
         msg: {
             text: 'Okay great, thanks anyway',
-            date: '2m',
-            read: false
+            date: '15h',
+            read: true
         }
      },
      { 
@@ -35,7 +35,7 @@ const contacts = [
         id: 4,
         msg: {
             text: `Hey alex, if you're free now let's hop on call `,
-            date: '2m',
+            date: '18s',
             read: true
         }
      },
@@ -45,8 +45,8 @@ const contacts = [
         id: 5,
         msg: {
             text: 'Sounds like a plan',
-            date: '2m',
-            read: false
+            date: '34m',
+            read: true
         }
      },
      { 
@@ -66,8 +66,8 @@ const contacts = [
         id: 7,
         msg: {
             text: 'Just got a feedback from our recent customer',
-            date: '2m',
-            read: false
+            date: '23h',
+            read: true
         }
      },
      { 
@@ -76,7 +76,7 @@ const contacts = [
         id: 8,
         msg: {
             text: `that's every, thanks again!`,
-            date: '2h',
+            date: '3d',
             read: true
         }
      },

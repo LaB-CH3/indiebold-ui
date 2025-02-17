@@ -102,6 +102,12 @@ import CollabTwo from '@/components/collaboration/Two.vue';
 
 
 
+
+
+
+
+
+<!-- default demo -->
   <main class="p-5 bg-gray-50" v-else>
    
     <!-- nav -->
@@ -136,12 +142,8 @@ import CollabTwo from '@/components/collaboration/Two.vue';
     <br><br>
 
     <div class="flex max-w-5xl m-auto h-[600px]">
-     <div class="w-[300px]">
       <ChatOne />
-     </div>
-     <div class="flex-1">
       <ChatTwo />
-     </div>
     </div>
 
     <br><br>

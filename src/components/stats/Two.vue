@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 lg:flex bg-white border border-gray-200 rounded-2xl card">
+    <div class="grid grid-cols-2 lg:flex bg-white border border-gray-200 rounded-2xl">
         <div class="flex flex-col gap-2 flex-1 text-center p-4" v-for="stat in stats">
             
             <h3 class="text-md text-gray-400 font-light">{{ stat.label }}</h3>

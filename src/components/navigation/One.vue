@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-[280px] h-screen bg-white flex flex-col gap-3 p-2 card">
+    <aside class="w-[280px] h-screen bg-white flex flex-col gap-3 p-2 shadow">
 
     <!-- User Tab -->
     <div class="flex items-center p-2 py-1 rounded-xl overflow-hidden cursor-pointer hover:bg-gray-50 transition-all duration-200">
@@ -31,7 +31,7 @@
           </li>
         </ul>
 
-        <div class="flex p-4 gap-3 items-center cursor-pointer rounded-md hover:bg-gray-50 mt-4">
+        <div class="flex p-4 gap-3 items-center cursor-pointer rounded-md hover:bg-gray-50">
           <i class="ri-mastercard-line text-xl"></i>
           <div class="flex flex-col flex-1">
             <h3 class="text-md">Plan & Billing</h3>

@@ -1,7 +1,7 @@
 
 
 <template>
-    <form @submit.prevent="handleSubmit" class="mx-auto bg-white rounded-3xl card p-6 space-y-6">
+    <form @submit.prevent="handleSubmit" class="mx-auto bg-white rounded-3xl shadow p-6 space-y-6 max-w-lg">
       <!-- Header -->
       <div class="flex items-center gap-4">
         <div class="size-12 border border-gray-200 rounded-full flex items-center justify-center">

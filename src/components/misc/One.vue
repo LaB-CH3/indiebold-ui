@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white card p-6 rounded-3xl">
+    <div class="bg-white shadow p-6 rounded-3xl max-w-md m-auto">
         <div class="flex flex-col gap-6" v-if="!videoStream">
 
           <!-- Header -->

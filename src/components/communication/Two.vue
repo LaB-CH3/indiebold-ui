@@ -2,7 +2,7 @@
 <template>
 
     <!-- chat box -->
-     <div class="flex flex-col flex-1 h-full bg-white card">
+     <div class="flex flex-col flex-1 h-full bg-white shadow max-w-xl rounded-2xl m-auto">
 
         <!-- Header -->
         <div class="flex items-center px-3 py-1.5 border-b border-gray-200">
@@ -94,7 +94,7 @@ const messages = [
     date: '9:28 AM',
     },
     { 
-    msg: `Yeah, we haven't gottwn lunch together in a ahile either`,
+    msg: `Yeah, we haven't gotten lunch together in a ahile either`,
     userId: 0,
     date: '9:28 AM',
     },

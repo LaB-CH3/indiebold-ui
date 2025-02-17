@@ -1,5 +1,5 @@
 <template>
-        <div class="card flex flex-col w-auto rounded-2xl bg-white">
+        <div class="card flex flex-col w-auto rounded-2xl bg-white shadow max-w-[300px] m-auto">
 
         <div class="flex items-center p-3 rounded-md overflow-hidden">
         <div class="size-11 rounded-full overflow-hidden border-gray-300 cursor-pointer shrink-0">

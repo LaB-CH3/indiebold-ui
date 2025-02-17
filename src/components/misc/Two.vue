@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col p-8 rounded-3xl gap-8">
+    <div class="flex flex-col p-8 rounded-3xl gap-8 max-w-lg m-auto">
       <div class="flex flex-col text-center">
         <i class="ri-bluesky-fill text-4xl"></i>
         <h1 class="text-2xl font-medium">Create account</h1>

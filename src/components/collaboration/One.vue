@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col card rounded-3xl p-5 bg-white gap-4">
+    <div class="flex flex-col card rounded-3xl p-5 bg-white gap-4 shadow max-w-lg m-auto">
         <div class="flex items-center gap-3">
             <div class="flex items-center justify-center size-14 border border-gray-200 rounded-full">
                 <i class="ri-user-add-line text-xl"></i>

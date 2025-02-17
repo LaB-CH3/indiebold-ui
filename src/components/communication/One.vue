@@ -1,7 +1,7 @@
 <template>
 
   <!-- contacts list -->
-  <div class="flex flex-col h-full bg-white card">
+  <div class="flex flex-col h-full bg-white shadow rounded-2xl max-w-sm m-auto">
      <div class="flex items-center gap-3 p-5">
           <h3 class="flex-1 text-lg font-medium">Messages</h3>
           <a href="#" class="size-8 flex items-center justify-center rounded-full hover:bg-gray-100"> <i class="ri-search-line text-xl"></i> </a>       
@@ -22,7 +22,7 @@
               <p class="text-sm truncate font-light flex-1" :class="{'text-gray-500': contact.msg.read}">{{ contact.msg.text }}</p>
               <div class="flex">
                   <i v-if="contact.msg.read" class="ri-check-double-line text-blue-500"></i>
-                  <span v-else class="size-4 flex items-center justify-center text-white text-xs rounded-full bg-red-500">4</span>
+                  <span v-else class="size-4 flex items-center justify-center text-white text-xs rounded-full bg-red-500">7</span>
               </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
 
 
 <script setup>
-import { contacts } from '@/utils'    
+import { contacts } from '@/utils'   
 
 
 </script>

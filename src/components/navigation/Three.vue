@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-[280px] h-screen bg-[#f7f7f7] flex flex-col gap-4 p-3">
+  <aside class="w-[280px] h-screen bg-[#f7f7f7] flex flex-col gap-4 p-3 shadow">
 
       <div class="flex bg-white border border-gray-200 items-center px-2 rounded-2xl overflow-hidden cursor-pointer transition-all duration-200">
         <div class="size-10 flex items-center justify-center overflow-hidden cursor-pointer shrink-0">

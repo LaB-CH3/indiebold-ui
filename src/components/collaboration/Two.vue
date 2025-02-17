@@ -1,6 +1,6 @@
 <template>
     
-    <div class="flex flex-col card p-5 gap-6 rounded-3xl bg-white">
+    <div class="flex flex-col card p-5 gap-6 rounded-3xl bg-white max-w-lg shadow m-auto">
         <form @submit.prevent="handleSubmit" class="flex flex-col flex-1 relative bg-gray-100 rounded-xl">
             <textarea rows="5" class="w-full p-2 border rounded-lg placeholder:font-light focus:ring-4 focus:ring-gray-100 focus:border-black outline-none transition-all duration-200 bg-gray-50 border-gray-200" placeholder="Add comment..."></textarea>
         
@@ -37,7 +37,7 @@
         <div class="flex flex-col mt-3 gap-6">
             <div class="flex flex-col gap-3 border-b border-gray-200 pb-6" v-for="comment in comments">
                 <div class="flex relative gap-3 items-center">
-                    <div class="size-9 rounded-full overflow-hidden border-gray-300 cursor-pointer shrink-0">
+                    <div class="size-9 rounded-full overflow-hidden border-gray-300 shrink-0">
                        <img :src="comment.user.avatar" class="w-full h-full object-cover" />
                     </div>
                     <h4 class="text-md">{{ comment.user.name }}</h4>
