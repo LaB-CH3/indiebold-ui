@@ -5,7 +5,7 @@
 
             <div class="flex items-center gap-1">
                 <i class="text-lg text-gray-500" :class="stat.attr.icon"></i>
-                <h3 class="flex-1">{{ stat.label }}</h3>
+                <h3 class="text-sm md:text-md flex-1">{{ stat.label }}</h3>
             </div>
 
             <div class="flex items-end gap-2">

@@ -4,16 +4,14 @@
    <div class="flex items-center gap-3 h-[60px]">
        <div class="flex-1 overflow-hidden whitespace-nowrap transition-all duration-200" :class="{'opacity-0 max-w-0': collapsed, 'opacity-100 max-w-full': !collapsed}">
          <div class="flex flex-1 items-center px-2 rounded-xl overflow-hidden cursor-pointer hover:bg-[#29292f]">
-           <!-- Avatar -->
            <div class="size-10 rounded-full overflow-hidden border-gray-300 cursor-pointer shrink-0">
              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                class="w-full h-full object-cover" />
            </div>
 
-           <!-- User Info -->
            <div class="flex-1 flex flex-col p-2 min-w-0 overflow-hidden transition-all duration-300"  :class="{'opacity-0 max-w-0': collapsed, 'opacity-100 max-w-full': !collapsed}">
              <h3 class="text-white text-sm font-medium truncate">Sarah Williams <i class="ri-verified-badge-fill text-sky-500"></i></h3>
-             <p class="text-gray-400 text-xs truncate">sarah@indie.com</p>
+             <p class="text-gray-400 text-xs truncate">sarah@indiebold.com</p>
            </div>
          </div>
        </div>

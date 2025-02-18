@@ -39,7 +39,7 @@
           </div>
 
           <div class="flex flex-1">
-            <button class="flex-1 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700">Continue</button>
+            <button class="flex-1 px-4 py-2 rounded-lg bg-black text-white ">Continue</button>
           </div>
           <div class="flex justify-center">
             <p class="text-md font-light">Already have an account? <a href="#" class="text-black border-b">Sign in</a></p>

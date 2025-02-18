@@ -34,7 +34,7 @@
                     <h3 class="flex-1 text-sm">{{  message.userId == loggedInUser ? 'You' : findContact(message.userId).name }}</h3>
                     <h3 class="text-sm text-gray-600"> {{ message.date }} </h3>
                 </div>
-                <div :class="['p-3 py-2 text-md font-light rounded-xl', message.userId === loggedInUser ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-900']">
+                <div :class="['p-3 py-2 text-md font-light rounded-xl', message.userId === loggedInUser ? 'bg-black text-white' : 'bg-gray-100 text-gray-900']">
                     {{ message.msg }}
                 </div>
             </div>
@@ -52,7 +52,7 @@
         
              <div class="flex items-center gap-2 absolute right-3 bottom-2">
                 <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200"><i class="ri-emotion-happy-line"></i></a>
-                <button class="px-4 py-2 rounded-lg bg-blue-600 text-white cursor-pointer hover:bg-blue-700" type="submit">Send</button>
+                <button class="px-4 py-2 rounded-lg bg-black text-white cursor-pointer" type="submit">Send</button>
              </div>
            </form>
          </div>

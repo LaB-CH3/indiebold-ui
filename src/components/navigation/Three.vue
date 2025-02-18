@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-[280px] h-screen bg-[#f7f7f7] flex flex-col gap-4 p-3 shadow">
+  <aside class="w-[280px] h-screen bg-[#f7f7f7] flex flex-col gap-4 p-3 border border-gray-200">
 
       <div class="flex bg-white border border-gray-200 items-center px-2 rounded-2xl overflow-hidden cursor-pointer transition-all duration-200">
         <div class="size-10 flex items-center justify-center overflow-hidden cursor-pointer shrink-0">
@@ -52,15 +52,13 @@
 
 
       <div class="flex items-center p-2 rounded-xl overflow-hidden cursor-pointer hover:bg-[#f0f0f0] transition-all duration-200">
-        <!-- Avatar -->
           <div class="size-10 rounded-full overflow-hidden cursor-pointer shrink-0">
             <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               class="w-full h-full object-cover" />
           </div>
-        <!-- User Info -->
           <div class="flex-1 flex flex-col p-2 min-w-0 overflow-hidden transition-all duration-300">
             <h3 class="text-sm font-medium truncate">Sarah Williams <i class="ri-verified-badge-fill text-sky-500"></i></h3>
-            <p class="text-xs truncate font-light">sarah@indie.com</p>
+            <p class="text-xs truncate font-light">sarah@indiebold.com</p>
           </div>
           <div class="flex">
             <i class="ri-arrow-right-s-line"></i>

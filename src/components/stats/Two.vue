@@ -2,8 +2,8 @@
     <div class="grid grid-cols-2 lg:flex bg-white border border-gray-200 rounded-2xl">
         <div class="flex flex-col gap-2 flex-1 text-center p-4" v-for="stat in stats">
             
-            <h3 class="text-md text-gray-400 font-light">{{ stat.label }}</h3>
-            <h1 class="text-3xl font-medium">{{ stat.value }}</h1>
+            <h3 class="text-sm md:text-md text-gray-400 font-light">{{ stat.label }}</h3>
+            <h1 class="text-2xl md:text-3xl font-medium">{{ stat.value }}</h1>
 
             <div class="flex justify-center items-center gap-1">
                 <h4 class="text-md">{{ stat.change.value }}%</h4>

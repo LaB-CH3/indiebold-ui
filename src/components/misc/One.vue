@@ -17,7 +17,7 @@
 
             <p class="text-md">Make sure your camera is connected and your browser allows image capture. When you're ready, click the button below to get started.</p>
             <div class="flex justify-center">
-              <button @click="startCamera" class="flex-1 px-4 py-2 rounded-lg bg-blue-600 text-white cursor-pointer hover:bg-blue-700">Start camera</button>
+              <button @click="startCamera" class="flex-1 px-4 py-2 rounded-lg bg-black text-white cursor-pointer">Start camera</button>
             </div>
         </div>
   

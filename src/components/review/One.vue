@@ -48,7 +48,7 @@
       <!-- Action Buttons -->
       <div class="flex gap-4">
         <button type="button" class="flex-1 px-4 py-2 rounded-lg border border-gray-200 cursor-pointer hover:bg-gray-100 hover:border-gray-100"> Cancel</button>
-        <button @click="handleSubmit" type="submit" class="flex-1 px-4 py-2 rounded-lg bg-blue-600 text-white cursor-pointer hover:bg-blue-700">Submit</button>
+        <button @click="handleSubmit" type="submit" class="flex-1 px-4 py-2 rounded-lg bg-black text-white cursor-pointer">Submit</button>
       </div>
     </form>
   </template>

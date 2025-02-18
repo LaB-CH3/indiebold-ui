@@ -86,7 +86,7 @@ const invites = [
     },
     {
         name: 'Ethan Lan',
-        email: 'julia@indiebold.com',
+        email: 'ethan@indiebold.com',
         access: 'view',
         avatar: 'https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },

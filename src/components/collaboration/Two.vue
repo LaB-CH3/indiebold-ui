@@ -13,7 +13,7 @@
              </div>
              <div class="flex items-center gap-2 absolute bottom-2 right-2">
                 <a href="#" class="size-6 flex items-center justify-center rounded-md hover:bg-gray-200"><i class="ri-at-line"></i></a>
-                <button class="flex items-center justify-center rounded-full bg-red-500 text-white px-3 py-1 hover:bg-red-500">Send</button>
+                <button class="flex items-center justify-center rounded-full bg-black text-white px-3 py-1 cursor-pointer">Send</button>
               </div>
            </form>
 

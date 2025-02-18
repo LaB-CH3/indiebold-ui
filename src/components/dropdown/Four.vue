@@ -7,7 +7,7 @@
         </div>
         <div class="flex-1 flex flex-col p-2 min-w-0 overflow-hidden transition-all duration-300">
             <h3 class="text-md font-medium truncate">Sarah Williams</h3>
-            <p class="text-sm truncate font-light">sarahwillie@indie.com</p>
+            <p class="text-sm truncate font-light">sarah@indiebold.com</p>
         </div>
         <div class="flex bg-green-100 text-green-500 text-xs font-bold px-2 py-1 rounded-full">PRO</div>
 
