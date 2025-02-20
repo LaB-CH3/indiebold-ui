@@ -9,10 +9,10 @@ import { RouterView } from 'vue-router'
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
-body, html{
-  font-family: "Atkinson Hyperlegible Next", serif;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+body, html{
+  font-family: "DM Sans", serif;
 }
 
 

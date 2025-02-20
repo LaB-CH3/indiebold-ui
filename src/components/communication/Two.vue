@@ -1,7 +1,5 @@
 
 <template>
-
-    <!-- chat box -->
      <div class="flex flex-col flex-1 h-full bg-white shadow max-w-xl rounded-2xl m-auto">
 
         <!-- Header -->
@@ -58,19 +56,14 @@
          </div>
      </div>
 
-
 </template>
 
 
 <script setup>
 import { contacts } from '@/utils'    
-
 const loggedInUser = 0
 const editButtons = ['ri-attachment-line', 'ri-mic-line']
 const headerBtn = ['ri-video-on-line', 'ri-phone-line', 'ri-wallet-line', 'ri-more-2-line']
-
-
-
 
 const findContact = (id) => contacts.find((el) => el.id == id) 
 const handleSubmit = () => {
@@ -78,30 +71,31 @@ const handleSubmit = () => {
 }
 
 const messages = [
-{ 
+  {
     msg: 'I will let Krystal know',
     userId: 0,
     date: '9:28 AM',
-    },
-    { 
+  },
+  {
     msg: 'Here is the latest spec doc we reviewed with the engineers this morning',
     userId: 6,
     date: '9:28 AM',
-    },
-    { 
-    msg: `We haven't had a break in awhile`,
+  },
+  {
+    msg: `We haven't had a break in a while`,
     userId: 6,
     date: '9:28 AM',
-    },
-    { 
-    msg: `Yeah, we haven't gotten lunch together in a ahile either`,
+  },
+  {
+    msg: `Yeah, we haven't gotten lunch together in a while either`,
     userId: 0,
     date: '9:28 AM',
-    },
-    { 
-    msg: `We should go back to ramen place. I've been craving it the last few days`,
+  },
+  {
+    msg: `We should go back to the ramen place. I've been craving it the last few days`,
     userId: 6,
     date: '9:28 AM',
-    },
-]
+  },
+];
+
 </script>

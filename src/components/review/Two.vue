@@ -1,23 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-const ratings = ref({
-  average: 4.7,
-  total: '17.4K',
-  reviews: 567,
-  distribution: [
-    { stars: 5, percentage: 45 },
-    { stars: 4, percentage: 25 },
-    { stars: 3, percentage: 10 },
-    { stars: 2, percentage: 15 },
-    { stars: 1, percentage: 5 }
-  ]
-})
-
-const handleWriteReview = () => {
-  console.log('Navigate to write review page')
-}
-</script>
 
 <template>
   <div class="mx-auto bg-white rounded-3xl shadow p-6 space-y-6 max-w-lg">
@@ -71,3 +51,26 @@ const handleWriteReview = () => {
     </button>
   </div>
 </template>
+
+
+
+<script setup>
+import { ref } from 'vue'
+
+const ratings = ref({
+  average: 4.7,
+  total: '17.4K',
+  reviews: 567,
+  distribution: [
+    { stars: 5, percentage: 45 },
+    { stars: 4, percentage: 25 },
+    { stars: 3, percentage: 10 },
+    { stars: 2, percentage: 15 },
+    { stars: 1, percentage: 5 }
+  ]
+})
+
+const handleWriteReview = () => {
+  console.log('Navigate to write review page')
+}
+</script>

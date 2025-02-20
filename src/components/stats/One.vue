@@ -1,7 +1,7 @@
 <template>
 
     <div class="grid grid-cols-2 lg:flex bg-white border border-gray-200 rounded-2xl">
-        <div class="flex flex-col flex-1 border-b border-r last:border-r-0 border-gray-200 lg:border-b-0 lg:gap-1 p-4" v-for="stat in stats">
+        <div class="flex flex-col flex-1 border-r last:border-r-0 border-gray-200 lg:gap-1 p-4" v-for="stat in stats">
 
             <div class="flex items-center gap-1">
                 <i class="text-lg text-gray-500" :class="stat.attr.icon"></i>
