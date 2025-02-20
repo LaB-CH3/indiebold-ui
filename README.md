@@ -3,7 +3,8 @@
 
 A collection of prebuilt Vue.js components styled with Tailwind CSS to help you quickly design and develop beautiful user interfaces. 
 
-### Live demo (https://indiebold-ui.netlify.app/)
+### Official page (https://indiebold.com)
+### Live demo (https://indiebold-ui.netlify.app)
 
 
 ---
