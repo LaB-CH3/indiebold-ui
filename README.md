@@ -43,7 +43,7 @@ Each folder contains Vue components for different interface elements:
 
 ## Custom CSS Snippets
 
-In your main CSS file (e.g., `main.css` or `App.css`), you can also include these helpful utility classes:
+In your main CSS file (e.g., `main.css` or `App.css`), you can also include these helpful utility class:
 
 ```css
 @import url('https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css');

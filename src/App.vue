@@ -9,10 +9,11 @@ import { RouterView } from 'vue-router'
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 
 body, html{
-  font-family: "DM Sans", serif;
+  font-family: "Nunito Sans", serif;
 }
 
 
