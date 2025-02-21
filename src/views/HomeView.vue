@@ -49,7 +49,7 @@ import CollabTwo from '@/components/collaboration/Two.vue';
 
 <!---------------------------------- DEMO -------------------------- -->
 
-<div v-if="genre">
+<div v-if="genre" class="bg-stone-100 min-h-screen">
   <!-- nav -->
   <div class="flex-1" v-if="genre == 'nav'">
     <NavOne v-if="view == '1'" />
